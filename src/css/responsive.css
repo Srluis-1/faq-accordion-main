@@ -1,0 +1,20 @@
+@media screen and (max-width:576px) {
+   body{
+    overflow: hidden;
+    background-image: url(../images/background-pattern-mobile.svg);
+    background-size: 100%;
+   }
+
+   .card{
+    width: 80%;
+     overflow: hidden; /*tira a rolagem vertical */
+   }
+
+   .subtitle h2{
+    width: 80%;
+   }
+   .text p{
+    width: 60%;
+   }
+
+}
